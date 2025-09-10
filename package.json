@@ -1,0 +1,24 @@
+{
+  "name": "pptorrents",
+  "version": "1.0.0",
+  "description": "Plausibly Private Torrents with no VPN - The only privacy tool that works if you don't use it.",
+  "homepage": "https://github.com/QuixThe2nd/ppTorrents#readme",
+  "bugs": {
+    "url": "https://github.com/QuixThe2nd/ppTorrents/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuixThe2nd/ppTorrents.git"
+  },
+  "license": "Unlicense",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bittorrent-dht": "^11.0.10",
+    "webtorrent": "^2.8.4"
+  }
+}
