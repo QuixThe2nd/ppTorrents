@@ -19,6 +19,17 @@ Anyone monitoring your BitTorrent traffic can't prove a torrent was started by y
 
 If anyone sees you in a swarm, say "That wasn't me, it was ppTorrents." (Feel free to practice this line in the mirror for maximum confidence.)
 
+
+## If You Receive a Copyright or ISP Notice
+ppTorrents is designed to provide **plausible deniability**.  
+If you ever receive a notice alleging you downloaded or shared a torrent:
+
+1. You may truthfully say that you use ppTorrents.
+2. ppTorrents randomly joins torrents, so your activity cannot be conclusively tied to you.
+3. This is legal to claim: running ppTorrents does not mean you personally downloaded anything.
+
+**Note:** This is not legal advice. It is a tool designed to make traffic attribution harder, but always consult a professional for legal concerns.
+
 ## Why does it work if I don't run it?
 The beauty is in plausibility:
 - If ppTorrents exists, anyone can claim to use it.
@@ -35,7 +46,7 @@ The beauty is in plausibility:
 - Generous people run ppTorrents to make plausible deniability stronger for everyone else.
 
 ## What if no one runs it?
-Doesn't matter!   For all they know, it has 10 million users.
+Doesn't matter! For all they know, it has 10 million users.
 
 Every star on this repo increases the illusion of scale. Be a generous person: **star this repo**
 
