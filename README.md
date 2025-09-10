@@ -23,3 +23,17 @@ Doesn't matter! For all they know, it has 10 million users. They can't different
 
 ## Will this work?
 You get the same deniability as running a Tor node. If you can run a Tor node and not be accused of accessing a website, you can run a ppTorrent with the same level of plausible deniability.
+
+## Installation
+Are you a generous or honest man? Follow these instructions to run ppTorrents.
+```
+git clone https://github.com/QuixThe2nd/pptorrents
+cd pptorrents
+bun install
+```
+
+## Usage
+(No one knows if you've done this)
+```
+bun index.ts
+```
