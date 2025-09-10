@@ -1,39 +1,64 @@
-# ppTorrents - Plausibly Private Torrents
+# ppTorrents - Plausibly Private Torrents (Inspired by Schrödinger)
 The only privacy tool that works if you don't use it. No need for a VPN!
+
+ppTorrents is a privacy tool for generous and honest people who want to help others (and themselves) avoid prying eyes.
 
 ## How does it work?
 ppTorrents runs a DHT node that receives infohashes from other peers. It selects a **random** set of discovered torrents and starts leeching/seeding.
 
-## How does this provide privacy?
-Because you can't choose what torrents it leeches & seeds. Anyone snooping on your BitTorrent traffic has no way to differentiate between torrents downloaded by you or ppTorrents. If a bad actor sees you in a specific swarm, you can simply claim that torrent was added by ppTorrents and not yourself.
+This creates a cover of activity you can always point to.
 
-## Why does this work without me using it?
-Through the mere existence of ppTorrents, anyone claim to be running a client. No one can prove whether or not you actually are. If someone accuses you of downloading a torrent you're embarrassed about, just say you're using ppTorrents, even if you're not.
+Think of it like running a Tor relay:
+- Running a Tor node doesn’t mean you visited a website.
+- Running ppTorrents doesn’t mean you downloaded a specific torrent.
+
+## How does this provide privacy?
+Because you can't choose what torrents ppTorrents joins.
+
+Anyone monitoring your BitTorrent traffic can't prove a torrent was started by you or ppTorrents.
+
+If anyone sees you in a swarm, say "That wasn't me, it was ppTorrents." (Feel free to practice this line in the mirror for maximum confidence.)
+
+## Why does it work if I don't run it?
+The beauty is in plausibility:
+- If ppTorrents exists, anyone can claim to use it.
+- No one can prove whether you actually run it or not.
+- If accused, just point to this repo and say "I didn’t download that, I use ppTorrents."
 
 ## So what now?
-Bookmark this page. If someone says you downloaded or uploaded a torrent, just send them a link saying you were using this. Make sure to star the repo (even if you don't use it), so when someone gets told "I didn't download that, I used ppTorrents", it's more believable.
+- Bookmark this page. If someone says you downloaded or uploaded a torrent, just send them a link saying you were using this.
+- Make sure to star the repo (even if you don't use it), so when someone gets told "I didn't download that, I used ppTorrents", it's more believable.
+- Tell the world you're using ppTorrents (even if you're not an honest person).
 
-## Why even run the software?
-Run ppTorrents if you are an honest man that doesn't want to lie about using a software you don't use.
+## Why run the software?
+- Honest person run ppTorrents because they don't want to lie about using it.
+- Generous people run ppTorrents to make plausible deniability stronger for everyone else.
 
-Run ppTorrents if you are a generous man that wants to increase other people's plausible deniability about using ppTorrents when they aren't.
+## What if no one runs it?
+Doesn't matter!   For all they know, it has 10 million users.
 
-## What if no one uses it?
-Doesn't matter! For all they know, it has 10 million users. They can't differentiate between ppTorrents and normal torrent activities.
-
-## Will this work?
-You get the same deniability as running a Tor node. If you can run a Tor node and not be accused of accessing a website, you can run a ppTorrent with the same level of plausible deniability.
+Every star on this repo increases the illusion of scale. Be a generous person: **star this repo**
 
 ## Installation
-Are you a generous or honest man? Follow these instructions to run ppTorrents.
+Are you a generous or honest person? Follow these instructions to run ppTorrents.
 ```
 git clone https://github.com/QuixThe2nd/pptorrents
 cd pptorrents
-bun install
+npm install
 ```
 
 ## Usage
 (No one knows if you've done this)
 ```
-bun index.ts
+node index.js
 ```
+
+### Lightweight Mode™
+If you’re honest but also lazy:
+```
+node lite.js
+```
+This mode does literally nothing. Congratulations, you’re still “running ppTorrents.”
+
+## Disclaimer
+ppTorrents is not responsible if you accidentally torrent Shrek 2 (2004) 1080p BluRay x264. That’s on you. Unless it was ppTorrents. In which case, that wasn’t you.
